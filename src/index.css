@@ -224,6 +224,154 @@
       font-size: 2rem;
     }
 
+    /* form */
+    .lorem{
+      font-size: 2rem;
+      /* padding-left: 2rem; */
+    }
+  input[type="checkbox"] {
+    width: 3rem;
+    height: 1.4rem;
+    /* margin-right: 1rem; */
+  }
+
+  .section-2m{
+    margin-top: 1rem;
+    border: 0.3rem solid rgb(162, 162, 217);
+    background-color: skyblue;
+    
+  }
+
+  .section-2o{
+    color: #053c9b;
+    text-align: center;
+  }
+
+  .section-2n{
+    padding-top: 2rem;
+  }
+
+  .section-2p{
+    width: 98%;
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+
+  .section-2q{
+    padding-top: 2rem;
+    color: #08388c;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .section-2u{
+    padding-top: 2rem;
+    font-size: 2rem;
+      /* width: 90%; */
+      /* margin: auto; */
+      /* text-align: start; */
+
+  }
+  .section-2r img{
+    width: 100%;
+  }
   
+  .section-2s{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .section-2t{
+    padding-top: 2rem;
+  }
+
+  .section-2v{
+    padding-top: 2rem;
+    font-size: 5rem;
+    color: #09275a;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+  }
+
+  .section-2w img{
+    max-width: 100%;
+  }
+  .section-2x{
+    font-size: 3rem;
+    padding-top: 2rem;
+    color: #002462;
+    width: 98%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Section3 */
+  .section3{
+    border: 2px solid blue;
+  }
+  .section-3b img{
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .section-3c img{
+    max-width: 100%;
+  }
+  .section-3d{
+    padding-top: 1rem;
+    color: red;
+    font-size:2.5rem;
+    text-align: center;
+  }
+  .line-tru{
+    text-decoration: line-through;
+  }
+
+  .section-3e{
+    text-align: center;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+  .section-3e{
+    padding-top: 2rem;
+    text-align: center;
+
+  }
+  /* Footer */
+  .footer{
+    padding-top: 2rem;
+        background-color: #033985;
+            margin-top: 1rem;
+  }
+
+  .footer2{
+    width: 80%;
+    margin: auto;
+  }
+
+  .footer2 img{
+    max-width: 80%;
+  }
+  .footer3 ul{
+    width: 98%;
+    font-size: 1rem;
+  }
+  .footer3 a{
+    font-size: 1rem;
+  }
+  .footer_div_2 p{
+    padding-top: 2rem;
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    color: rgb(211, 199, 199);
+  }
  
 }
