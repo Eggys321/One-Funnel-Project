@@ -1,6 +1,7 @@
 import React from 'react'
 import headline from '../src/images/headline_ofaplat2v3-min.png'
 import bord2 from '../src/images/bord2.png'
+import meditation from '../src/images/meditationss.mp4'
 
 const Section = () => {
     const countDown = () => {
@@ -35,7 +36,7 @@ const Section = () => {
         <span className='section-a'>
           <div className='section-b'>
             <video className='img-fluid Hsection1_vidoe_div' controls>
-              <source src='/Media/meditationss.mp4' type='video/mp4' />
+              <source src={meditation} type='video/mp4' />
             </video>
             <p>
               The <span className='underline'>Life</span> You Want, The
