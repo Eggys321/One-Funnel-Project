@@ -2,42 +2,56 @@ import React from 'react'
 import Russel from '../src/images/russell-dark-new.jpg'
 import dollar from '../src/images/100dollars.jpg'
 import testimonials from '../src/images/Testimonials.png'
+import exclamation from '../src/images/exclamation.png'
 
 const Section2 = () => {
   return (
-    <div className='container'>
+    <div className='containers'>
       <div className='section-2a'>
-        <hr />
-        <h2 className='section-2b'>
-          <span className='section-2c'>Just One Funnel</span> Can Change Your
-          Life
-        </h2>
-        <hr />
-        <div className='section-2d'>
+        <div className='sec-flex'>
           <div>
+            <img src={exclamation} alt='' />
+          </div>
+          <div className='sec-hr'>
+            <hr />
+            <h2 className='section-2b'>
+              <span className='section-2c'>Just One Funnel</span> Can Change
+              Your Life
+            </h2>
+            <h2 className='section-2bb'>
+              <span className='section-2c'>Freeedom Is Just</span> <span className='boldd'>
+                One Funnel
+              Away
+              </span>
+            </h2>
+            <hr />
+          </div>
+        </div>
+        <div className='section-2d'>
+          <div className='sece'>
             <p className='section-2e'>
-              <span className='bolder'>From:</span> Russel Brunson{' '}
-              <span className='bolder'>Where:</span> Boise, Idaho
+              <span className='b'>From:</span> Russel Brunson <br />
+              <span className='b'>Where:</span> Boise, Idaho
             </p>
             <h2 className='section-2f'>
-              What does{' '}
-              <span className='bolder'>'One Funnel Away' mean for you...?</span>
+              What does
+              <span className=''>'One Funnel Away' mean for you...?</span>
             </h2>
             <p className='section-2g'>For everyone it's diferent...</p>
             <h2 className='section-2h'>
-              For some of you,{' '}
-              <span className='underline'>you're in a job that you hate.</span>{' '}
+              For some of you,
+              <span className='underline'>you're in a job that you hate.</span>
               and you're trying to get out
             </h2>
             <p className='section-2i'>
-              For others you are entrepreneurs with your own company...{' '}
+              For others you are entrepreneurs with your own company...
               <span className='underline'>but you're stuck</span> and you're not
               sure why
             </p>
             <p className='section-2j'>
               And for others of you, ou're looking for that one funnel that will
-              help you to{' '}
-              <span className='bolder'>have more impact on the world!</span>
+              help you to
+              <span className=''>have more impact on the world!</span>
             </p>
             <p className='section-2k'>
               Before I share with you MY GOAL for this 'One funnel Away
@@ -82,7 +96,6 @@ const Section2 = () => {
           <input type='checkbox' />
           <span className='lorem'>Lorem ipsum dolor.</span>
         </div>
-      </div>
       <div className='section-2n'>
         <p className='section-2p'>
           If You Checked ANY Of Th Boxes Above, Then I Want To Invite You To
@@ -110,9 +123,11 @@ const Section2 = () => {
         <div className='section-2w'>
           <img src={testimonials} alt='' />
         </div>
-        <h1 className='section-2x'>Then In Exchange For That Tiny $100 Investment, You Get All of This:</h1>
+        <h1 className='section-2x'>
+          Then In Exchange For That Tiny $100 Investment, You Get All of This:
+        </h1>
       </div>
-
+      </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import headline from '../src/images/headline_ofaplat2v3-min.png'
+import headline2 from '../src/images/headline_ofaplatV2-min.png'
 import bord2 from '../src/images/bord2.png'
 import meditation from '../src/images/meditationss.mp4'
 
@@ -30,15 +31,18 @@ const Section = () => {
     <div className='section'>
       <div className='container'>
         <div className='dotted'></div>
-        <div>
+        <div className='none'>
           <img src={headline} alt='headline-image' />
+        </div>
+        <div className='nones'>
+          <img src={headline2} alt='headline-image' />
         </div>
         <span className='section-a'>
           <div className='section-b'>
             <video className='img-fluid Hsection1_vidoe_div' controls>
               <source src={meditation} type='video/mp4' />
             </video>
-            <p>
+            <p className='adj'>
               The <span className='underline'>Life</span> You Want, The
               <span className='underline'>Marriage</span> You Want... The
               <span className='underline'>Family</span> That You Want, Is Going
@@ -49,8 +53,9 @@ const Section = () => {
           <div className='section-c'>
             <p className='para1'>
               The Next <span className='bold'>'ONE FUNNEL AWAY'</span> Challenge
-              Starts On Apr 4th...
+              Starts On Apr 18th...
             </p>
+          
             <img src={bord2} alt='' />
             <div className='sm_1'>
               <div className='sm_2'>
@@ -81,13 +86,17 @@ const Section = () => {
             <span className='section-d'>
               <p className='para2'>Registration Ends Apr 3rd At 10PM ET! </p>
               <hr />
-              <p className='para3'>
+              <p className='para3 vr'>
                 Join The Challenge Now For A One-Time Discounted Payment Of Only
                 $100
               </p>
-              <p className='para4'>
-                <span className='start'>Start Now!</span> <br /> I want Daily Training LIVE
-                Coaching and Accountability from Day 1 to Day 30
+              <p className='para4 uf'>
+                <span className='start'>Start Now!</span> <br /> I want Daily
+                Training LIVE Coaching and Accountability from Day 1 to Day 30
+              </p>
+              <p className='para4 uf2 '>
+                <span className='start'>Join The Challenge <br /> Now!</span> <br /> I want Daily
+                Training LIVE Coaching and Accountability from Day 1 to Day 30
               </p>
             </span>
           </div>

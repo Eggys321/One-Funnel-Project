@@ -25,6 +25,22 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <div className='nav-linkss'>
+            <ul>
+              <li>
+                <a href=''>Join</a>
+              </li>
+              <li>
+                <a href=''>Members Login</a>
+              </li>
+              <li>
+                <a href=''>Success Stories</a>
+              </li>
+              <li>
+                <a href=''>Support</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

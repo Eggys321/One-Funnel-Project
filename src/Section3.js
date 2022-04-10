@@ -20,11 +20,15 @@ const Section3 = () => {
         </h4>
 
         <h6 className='bold section-3e'>
-          You have 30 Days, starting from April 18th...{' '}
+          You have 30 Days, starting from April 18th...
         </h6>
         <h6 className='underline section-3e'>Do YOU Accept?</h6>
-        <p className='para4'>
+        <p className='para4 rv'>
           <span className='start'>Start Now!</span> <br /> I want Daily Training
+          LIVE Coaching and Accountability from Day 1 to Day 30
+        </p>
+        <p className='para4 rv2'>
+          <span className='start'>Join The Challenge Now!</span> <br /> I want Daily Training
           LIVE Coaching and Accountability from Day 1 to Day 30
         </p>
       </div>
