@@ -6,7 +6,7 @@ import meditation from '../src/images/meditationss.mp4'
 
 const Section = () => {
     const countDown = () => {
-      const countDate = new Date('April 17, 2022 00:00:00').getTime()
+      const countDate = new Date('May 30, 2022 00:00:00').getTime()
       const today = new Date().getTime()
       const difference = countDate - today
 
